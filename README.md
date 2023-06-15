@@ -12,16 +12,6 @@
 
 #### Примеры запуска:
 ___
-#### Можно запускать с помощью poetry run из директории my-todo:
-```
-cd poetry/
-poetry run my-todo todo.py add 'Buy milk' 'Go to the store and buy some milk'
-poetry run my-todo todo.py add 'Do laundry' 'Wash the clothes and hang them to dry'
-poetry run my-todo todo.py show
-poetry run my-todo todo.py done 1
-poetry run my-todo todo.py find 'laundry'
-```
-___
 #### Можно установить пакет в систему и использовать программу в консоли
 #### Для этого переходим в директорию "my-todo", создаём новое вирт. окружение и активируем его:
 ```
@@ -39,7 +29,7 @@ ___
 ```
 my-todo add 'Buy milk' 'Go to the store and buy some milk'
 my-todo add 'Do laundry' 'Wash the clothes and hang them to dry'
-my-todo show
+my-todo show 5
 my-todo done 1
 my-todo find 'laundry'
 ```
